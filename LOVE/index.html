@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário de Namoro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Música de fundo -->
+    <audio autoplay loop>
+        <source src="musica.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+    </audio>
+
+    <div class="container">
+        <h1>Feliz Aniversário de Namoro, Meu Amor! ❤️</h1>
+        <p>Estamos juntos há:</p>
+        <div id="contador"></div>
+        <p class="mensagem">Cada segundo ao seu lado é especial! Te amo! 💕</p>
+
+        <!-- Declarações de amor -->
+        <div class="declaracoes">
+            <p>Desde o dia em que te conheci, minha vida se iluminou de uma forma que eu nunca imaginei. ✨</p>
+            <p>Você é a melhor parte dos meus dias, meu abrigo e minha felicidade. 💖</p>
+            <p>A cada momento ao seu lado, percebo o quanto sou sortudo(a) por ter você comigo. 🌹</p>
+            <p>Meu amor por você cresce a cada dia, e mal posso esperar para compartilhar muitos e muitos anos ao seu lado. ❤️</p>
+            <br>
+            <H3>Alegria</H3>
+            <p>Sem você, só uma palavra</p>
+            <p>Longe de ti, uma metáfora</p>
+            <p>Separados, apenas ficção</p>
+            <p>Alegria sem você é só mais uma invenção</p>
+            <br>
+            <p>Ao seu lado, mais concreta que a realidade</p>
+            <p>Com seu cheiro por perto, uma droga viciante</p>
+            <p>Com seus cabelos ao vento, uma loucura fascinante</p>
+            <p>“Alegria, minha alegria”</p>
+        </div>
+
+        <!-- Slide de fotos -->
+        <div class="slider-container">
+            <div class="slider">
+                <img src="foto1.jpg" alt="Foto 1">
+                <img src="foto2.jpg" alt="Foto 2">
+                <img src="foto3.jpg" alt="Foto 3">
+                <img src="foto4.jpg" alt="Foto 4">
+            </div>
+            <button class="prev" onclick="mudarSlide(-1)">&#10094;</button>
+            <button class="next" onclick="mudarSlide(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <canvas id="coracoes"></canvas>
+    <canvas id="flores"></canvas>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
